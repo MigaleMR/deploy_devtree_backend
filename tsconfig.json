@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "outDir": "./dist",
-        "rootDir": "backend/src",
+        "rootDir": "./src",
         "lib": ["ESNext"],
         "target": "esnext",
         "moduleResolution": "nodenext",
@@ -11,5 +11,5 @@
         "esModuleInterop": true,
         "declaration": true,
     },
-    "include": ["backend/src/**/*.ts"]
+    "include": ["src/**/*.ts"]
 }
